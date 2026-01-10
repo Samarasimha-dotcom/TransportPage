@@ -1,0 +1,75 @@
+h2 {
+  margin: 8px 0 12px;
+  font-size: 20px;
+}
+
+.filters {
+  display: grid;
+  grid-template-columns: 1fr auto auto auto;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.filters input[type="text"] {
+  padding: 8px;
+  border: 1px solid #cfd8dc;
+  border-radius: 4px;
+}
+
+.filters select,
+.filters input[type="time"] {
+  padding: 6px;
+  border: 1px solid #cfd8dc;
+  border-radius: 4px;
+}
+
+.inline {
+  display: inline-flex;
+  gap: 6px;
+  align-items: center;
+  font-size: 13px;
+}
+
+.empty {
+  color: #666;
+  font-style: italic;
+  margin-top: 12px;
+}
+
+.ride-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ride {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 10px;
+  background: #fafafa;
+}
+
+.row1, .row2, .row3 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+.row3 {
+  color: #37474f;
+}
+
+.vt {
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  color: #fff;
+}
+
+.vt.bike { background: #43a047; }
+.vt.car { background: #1565c0; }
